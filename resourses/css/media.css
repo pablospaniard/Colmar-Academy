@@ -49,16 +49,7 @@
         background-color: #8a8a8a;
     }
     
-    .main-btn:hover {
-        background-color: white;
-        border: 1px solid #d8d8d8;
-        color: #d8d8d8;
-    }
     
-    .main-btn:hover a{
-        background-color: white;
-        color: #d8d8d8;
-    }
     
     /*    CONTENT*/
     .main-cnt {
@@ -105,12 +96,7 @@
         padding-right: 1rem;
     }
     
-    .add-str-about a:hover {
-        color: white;
-        background-color: #4a90e2;
-        padding: 0.5rem 1rem;
-        border-radius: 10px;
-    }
+    
     
     /*    FEATURES*/
     .ftr-title {

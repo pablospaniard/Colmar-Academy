@@ -39,6 +39,10 @@ nav a {
     padding-right: 1.5rem;
 }
 
+nav a:hover {
+    color: black;
+}
+
 .logo p {
     text-transform: uppercase;
     color: #868686;
@@ -95,6 +99,16 @@ nav a {
 .main-btn a {
     color: white;
     text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: white;
+    color: #d8d8d8;
+}
+
+.main-btn:hover a {
+    background-color: white;
+    color: #d8d8d8;
 }
 
 
@@ -162,17 +176,30 @@ nav a {
     padding-bottom: 2rem;
 }
 
+/*
 #gray {
     background-color: #d8d8d8;
 }
+*/
 
 .add-str-about a {
     color: #4a90e2;
     text-decoration: none;
+    padding-left: 1rem;
 }
 
 .img-mobile {
     display: none;
+}
+
+.add-str-about a:hover {
+        color: white;
+        background-color: #4a90e2;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+    }
+.add-str:hover {
+    background-color: #d8d8d8;
 }
 
 
@@ -206,6 +233,11 @@ nav a {
     margin: 1rem 1rem;
     display: flex;
     flex-direction: column;
+}
+
+.ftr-course-about:hover {
+    background-color: #4a90e2;
+    color: white;
 }
 
 .ftr-course img {
@@ -304,6 +336,10 @@ video {
 
 .ftr-ths-about p {
     color: #4a4a4a;
+}
+
+.ftr-ths:hover {
+    background-color: #d8d8d8;
 }
 
 
