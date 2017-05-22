@@ -8,6 +8,12 @@ body {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 1024px) {
+    
+    body {
+        width: 100%;
+    }
+
 body header {
     position: fixed;
     width: inherit;
@@ -48,6 +54,30 @@ nav a {
     color: black;
 }
 
+.header-nav-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    header .logo,
+    .header-nav a {
+        display: none;
+    }
+    header .header-nav-mobile {
+        display: flex;
+        width: 100%;
+    }
+    .header-nav-mobile ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}
+
 
 /*Main*/
 
@@ -56,7 +86,6 @@ nav a {
     width: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #d8d8d8;
 }
 
@@ -174,7 +203,6 @@ nav a {
 .features {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: #d8d8d8;
     padding: 0 2rem;
@@ -228,6 +256,7 @@ nav a {
     color: #4a4a4a;
 }
 
+
 /*Thesis*/
 
 .thesis {
@@ -255,6 +284,7 @@ nav a {
 video {
     width: 100%;
 }
+
 .main-ths-about {
     margin-left: 1.5rem;
     margin-bottom: 2rem;
@@ -273,7 +303,6 @@ video {
 .ftr-thesises {
     width: 423px;
     padding: 0 1rem;
-    
 }
 
 .ftr-ths {
@@ -285,7 +314,7 @@ video {
 .ftr-ths img {
     margin: 1rem;
     width: 35%;
-    padding: 1rem;    
+    padding: 1rem;
 }
 
 .ftr-ths-about h3 {
@@ -297,6 +326,7 @@ video {
 .ftr-ths-about p {
     color: #4a4a4a;
 }
+
 
 /*Footer*/
 
