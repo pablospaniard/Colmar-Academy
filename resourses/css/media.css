@@ -28,7 +28,7 @@
     
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
     /*    MAIN*/
     .main {
         flex-direction: column;
@@ -95,7 +95,9 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+    .add-str:hover {
+    background-color: white;
+}
     
     
     /*    FEATURES*/
@@ -130,6 +132,7 @@
     .ftr-course-about:hover{
         background-color: white;
         border: 1px solid #d8d8d8;
+        color: black;
     }
     .ftr-course-about h3 {
         padding: 1rem;
