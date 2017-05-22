@@ -14,6 +14,7 @@ body header {
     z-index: 100;
 }
 
+
 /*Header*/
 
 header {
@@ -50,6 +51,7 @@ nav a {
 .header-nav-mobile {
     display: none;
 }
+
 
 /*Main*/
 
@@ -94,6 +96,7 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
 
 /*Content*/
 
@@ -171,6 +174,7 @@ nav a {
 .img-mobile {
     display: none;
 }
+
 
 /*Features*/
 

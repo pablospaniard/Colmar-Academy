@@ -28,7 +28,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-    
     /*    MAIN*/
     .main {
         flex-direction: column;
@@ -92,4 +91,32 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    /*    FEATURES*/
+    .ftr-course {
+        width: 100%;
+        margin: 0.5rem 1rem;
+    }
+    .ftr-course img {
+        display: none;
+    }
+    .ftr-course-about p {
+        display: none;
+    }
+    .features {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 0;
+        text-align: left;
+    }
+    .ftr-course-about {
+        background-color: #d8d8d8;
+        height: auto;
+        
+    }
+    .ftr-course-about h3 {
+    padding: 1rem;
+
+}
 }
