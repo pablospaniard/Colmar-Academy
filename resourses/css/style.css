@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+body header {
+    position: fixed;
+    width: 1024px;
+    z-index: 100;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 4rem;
+    background-color: white;
+}
+
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav a {
+    margin-left: 1rem;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.logo p {
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.logo p span {
+    color: black;
+}
+
+
+
+
+
+
+
