@@ -100,12 +100,10 @@ nav a {
 .content {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .main-cnt {
     width: 60%;
-    height: auto;
     padding: 2rem 1.5rem;
     border-right: 1px solid #d8d8d8;
 }
@@ -114,14 +112,14 @@ nav a {
     width: 100%;
 }
 
-.main-cnt-about h2{
+.main-cnt-about h2 {
     font-weight: bold;
     font-size: 2rem;
     padding: 1.5rem 0;
 }
 
 .main-cnt-about .autor {
-    padding-top: 2rem;
+    padding: 2rem 0;
     font-weight: bold;
     font-size: 0.8rem;
 }
@@ -130,7 +128,6 @@ nav a {
     width: 423px;
     display: flex;
     align-items: center;
-
     flex-direction: column;
 }
 
@@ -143,7 +140,7 @@ nav a {
 }
 
 .add-str img {
-   width: 35%;
+    width: 35%;
     padding: 1rem;
 }
 
@@ -165,7 +162,153 @@ nav a {
 #gray {
     background-color: #d8d8d8;
 }
+
 .add-str-about a {
     color: #4a90e2;
     text-decoration: none;
+}
+
+
+/*Features*/
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d8d8d8;
+    padding: 0 2rem;
+}
+
+.ftr-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.ftr-courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.ftr-course {
+    width: 30%;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ftr-course img {
+    width: 100%;
+}
+
+.ftr-course-about {
+    background-color: white;
+    padding: 1rem;
+    height: 6.75rem;
+}
+
+.ftr-course-about h3 {
+    font-weight: bold;
+    padding-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.ftr-course-about p {
+    padding-bottom: 0.5rem;
+    line-height: 1.25rem;
+    color: #4a4a4a;
+}
+
+#uppercase {
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+/*Thesis*/
+
+.thesis {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thesis-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.ths-container {
+    display: flex;
+}
+
+.main-ths {
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+video {
+    width: 100%;
+}
+.main-ths-about {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-ths-about h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-ths-about p {
+    color: #4a4a4a;
+}
+
+.ftr-thesises {
+    width: 423px;
+    padding: 0 1rem;
+    
+}
+
+.ftr-ths {
+    height: 168px;
+    display: flex;
+    align-items: center;
+}
+
+.ftr-ths img {
+    margin: 1rem;
+    width: 35%;
+    padding: 1rem;    
+}
+
+.ftr-ths-about h3 {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.ftr-ths-about p {
+    color: #4a4a4a;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+    color: #4a4a4a;
+}
+
+footer nav a {
+    margin-left: 1rem;
+    padding-right: 0;
 }
