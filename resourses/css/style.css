@@ -8,18 +8,11 @@ body {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 1024px) {
-    
-    body {
-        width: 100%;
-    }
-
 body header {
     position: fixed;
     width: inherit;
     z-index: 100;
 }
-
 
 /*Header*/
 
@@ -57,27 +50,6 @@ nav a {
 .header-nav-mobile {
     display: none;
 }
-
-@media only screen and (max-width: 1024px) {
-    
-    header .logo,
-    .header-nav a {
-        display: none;
-    }
-    header .header-nav-mobile {
-        display: flex;
-        width: 100%;
-    }
-    .header-nav-mobile ul {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin: 0 auto;
-        flex-grow: 1;
-        flex-shrink: 1;
-    }
-}
-
 
 /*Main*/
 
@@ -122,7 +94,6 @@ nav a {
     color: white;
     text-decoration: none;
 }
-
 
 /*Content*/
 
@@ -197,6 +168,9 @@ nav a {
     text-decoration: none;
 }
 
+.img-mobile {
+    display: none;
+}
 
 /*Features*/
 
