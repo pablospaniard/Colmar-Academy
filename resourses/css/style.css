@@ -14,6 +14,7 @@ body header {
     z-index: 100;
 }
 
+
 /*Header*/
 
 header {
@@ -23,7 +24,6 @@ header {
     height: 4rem;
     background-color: white;
 }
-
 
 header .logo {
     display: flex;
@@ -48,10 +48,11 @@ nav a {
     color: black;
 }
 
+
 /*Main*/
 
 .main {
-    padding-top: 4rem; 
+    padding-top: 4rem;
     width: auto;
     display: flex;
     align-items: center;
@@ -94,6 +95,73 @@ nav a {
 }
 
 
+/*Content*/
 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.main-cnt {
+    width: 60%;
+    height: auto;
+    padding: 2rem 1.5rem;
+    border-right: 1px solid #d8d8d8;
+}
 
+.main-cnt img {
+    width: 100%;
+}
+
+.main-cnt-about h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+
+.main-cnt-about .autor {
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.add-cnt {
+    width: 423px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.add-str {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.add-str img {
+   width: 35%;
+    padding: 1rem;
+}
+
+.add-str-about {
+    padding-right: 1rem;
+}
+
+.add-str-about h3 {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.add-str-about p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+#gray {
+    background-color: #d8d8d8;
+}
